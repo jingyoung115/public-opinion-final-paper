@@ -1,0 +1,76 @@
+# Research Lab Book
+Project: Who Says Matters: The Impact of Inclination-Oriented Media Consumption on Political Trust in China
+Period: Fall 2024
+
+## Data Processing
+
+### September 15, 2024
+**Data Cleaning Decisions:**
+- Merged multiple waves of survey data (2014-2021)
+- Standardized variable names across waves
+
+
+### September 28, 2024
+**Variable Construction:**
+- Created ordinal trust measure (trust_central_4) from original categorical variable
+- Recoded education levels into 8 categories for consistency across waves
+- Age grouped into 9 categories (18-24, 25-29, etc.) for simulation analysis. Age grouping allows better visualization of measurement error patterns
+
+## Statistical Analysis
+
+### October 10, 2024
+**Model Specification:**
+- Chose ordered logistic regression due to ordinal nature of dependent variable
+- Included control variables: gender, education, income, age, political interest, year
+
+
+### October 20, 2024
+**Project Proposal:**
+- Discussed measurement error in the dataset
+- Decided to use Monte Carlo simulation approach for testing robustness
+
+### November 20, 2024
+**Detailed Summary of the Project:**
+- Discussed more specifically about potential measurement error in IV international media use and DV trust in central government
+- Planned steps for conducting Monte Carlo simulation
+
+### November 22, 2024
+**Feedback of Detailed Summary of the Project:**
+- Got feedback from Fred 
+- Focusing on adjusting international media use based on age and education
+
+### November 25, 2024
+**Measurement Error Simulation:**
+- Developed Monte Carlo simulation approach for testing robustness
+- Parameters chosen:
+  - 30% education adjustment, 20% age adjustment
+
+### December 12, 2024
+**Class Discussion of the Project:**
+- Shared codes and comparison between adjusted and original odds ratio of international media use
+- Found some errors in the codes
+
+### December 17, 2024
+**Refinement of Simulation:**
+- Discussed codes of the simulation with Fred
+- Changing Parameters to create different case scenarios:
+  - Moderate case: 30% education adjustment, 20% age adjustment
+  - Extreme case: 60% education adjustment, 40% age adjustment
+
+
+## Visualization Decisions
+
+### December 17, 2024
+**Graph Design:**
+- Discussed visualization with Fred
+- Created scatterplots comparing original vs. adjusted media consumption
+- Used jittering to better display overlapping data points
+- Used education and age subplots to show differential adjustment effects
+- Rationale: Helps visualize patterns of measurement error adjustment
+
+### December 18, 2024
+**Results Presentation:**
+- Created histograms showing distribution of simulated odds ratios
+- Added notes of simulated odds ratios and original odds ratios
+- Rationale: Facilitates direct comparison between simulated odds ratios in moderate / extreme cases and original odds ratios
+
