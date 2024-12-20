@@ -21,5 +21,8 @@ subprocess.run(["git", "commit", "-m", "Initial commit"])
 # Step 6: Link to the remote repository
 subprocess.run(["git", "remote", "add", "origin", "https://github.com/jingyoung115/media-and-trust.git"])
 
+subprocess.run(["git", "branch", "-m", "master", "main"])
+
+
 # Step 7: Push to the remote repository
-subprocess.run(["git", "push", "-u", "origin", "master"])
+subprocess.run(["git", "push", "-u", "origin", "main", "--force"])
