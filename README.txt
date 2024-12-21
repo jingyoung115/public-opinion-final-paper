@@ -24,6 +24,7 @@ yang-replication materials/
 ├── wave
 ├── processed_data
 ├── Lab Book.txt
+├── yang-public opinion final paper.pdf
 └── README.txt
 
 List of files in the zipped file:
@@ -31,6 +32,8 @@ List of files in the zipped file:
 		README.txt
 	Lab book file:
 		Lab Book.txt
+	Paper Manuscript:
+		yang-public opinion final paper.pdf
 	Raw data:
 		"yang-replication materials\2014-2015-2017_data_SSCN.dta"
 		"yang-replication materials\2018_data_SSCN.dta"
