@@ -2,7 +2,7 @@ README
 
 Project title: Who Says Matters: The Impact of Inclination-Oriented Media Consumption on Political Trust in China
 
-Last updated: November 19, 2024
+Last updated: November 20, 2024
 
 Overview
 This repository contains replication materials for the study examining the relationship between international media consumption and trust in central government, including Monte Carlo simulations for measurement error analysis.
