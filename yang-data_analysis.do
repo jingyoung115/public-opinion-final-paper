@@ -936,6 +936,9 @@ ologit trust_central_4 media_state media_private media_intl i.female educ i.pid 
         replace media_intl_extreme = 1 if media_intl_extreme < 1
         replace media_intl_extreme = 4 if media_intl_extreme > 4		
 
+		label variable media_intl_moderate "Moderately adjusted media international use"
+		label variable media_intl_extreme "Extremely adjusted media international use"
+
 		
 ********* Compare media_intl_moderate & media_intl*********
 
